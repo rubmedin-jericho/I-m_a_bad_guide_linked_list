@@ -33,7 +33,6 @@ void free_list(node *stack){
     stack = stack->next;
     free(tmp);
   }
-  free(stack);
 }
 
 /*3.5- Esta esta funcion va antes que la anterior basicamente para ver que la lista tiene contenido
